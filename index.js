@@ -2,14 +2,14 @@
 function happyHolidays(){
   return 'Happy holidays!'
 }
-function happyHolidaysTo(name){
-  return 'Happy holidays, ${name}!';
+function happyHolidaysTo(you){
+  return 'Happy holidays, you!';
 }
-function happyHolidayTo(holiday,name){
-  return 'Happy ${holiday}, ${name}!';
+function happyHolidayTo(Independence Day,you){
+  return 'Happy Independence Day, you!';
 }
-function holidayCountdown(days,holiday){
-  return 'It\'s ${days} days until ${holiday}!';
+function holidayCountdown(20,"Mother's Day"){
+  return 'It\'s 20 days until Mother\'s Day!';
 }
 
 happyHolidaysTo('you');
